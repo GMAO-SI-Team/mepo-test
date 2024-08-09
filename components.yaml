@@ -1,9 +1,15 @@
-mepo-test:
+MAPL:
   fixture: true
-  develop: main
+  develop: develop
 
 ESMA_env:
   local: ./ESMA_env
-  remote: ../ESMA_env.git
+  remote: https://github.com/GEOS-ESM/ESMA_env.git
   tag: v4.30.0
   develop: main
+
+ESMA_cmake:
+  local: ./ESMA_cmake
+  remote: https://github.com/GEOS-ESM/ESMA_cmake.git
+  tag: v3.49.0
+  develop: develop
